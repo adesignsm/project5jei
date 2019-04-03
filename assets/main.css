@@ -1,0 +1,117 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+}
+
+@font-face {
+	font-family: "comic";
+	src: url("VTC-Letterer-Pro/VTC_letterer_pro.ttf");
+}
+
+#loading-page {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+#main-content {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#main-page-logo {
+	width: 10%;
+	cursor: pointer;
+	padding: 2%;
+/*	border-radius: 0px;*/
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-ms-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;
+}
+
+a:hover {
+	font-weight: bolder;
+	color: #ff0000;
+}
+
+ul {
+	margin-top: 3%;
+	margin-left: 1%;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 3%;
+	font-family: "comic";
+	font-size: 200%;
+	color: #000000;
+	cursor: pointer;
+}
+
+li:hover {
+	font-weight: bolder;
+	color: #ff0000;
+}
+
+#main-page-hero canvas {
+	position: absolute;
+	top: 1%;
+	left: 25%;
+}
+
+#about-section {
+	position: absolute;
+	top: 0;
+	background-color: transparent;
+}
+
+#about-section p {
+	font-family: "comic";
+	width: 35%;
+	line-height: 35px;
+	margin-top: 5%;
+	margin-left: 55%;
+	font-size: 150%;
+}
+
+#about-section img {
+	width: 20%;
+	margin-top: 5%;
+	margin-left: 60%;
+}
+
+#portfolio-media {
+	margin-top: 5%;
+	margin-left: 30%;
+	width: 60%;
+}
+
+#portfolio-section img {
+	width: 45%;
+	float: right;
+	margin: 1%;
+	cursor: pointer;
+}
+
+#portfolio-media canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*MEDIA QUERY*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  
+}
